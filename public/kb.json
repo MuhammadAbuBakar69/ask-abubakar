@@ -6,13 +6,13 @@
     "location": null,
     "status": "open to work",
     "counts": {
-      "repos": 70,
-      "described": 70
+      "repos": 71,
+      "described": 71
     },
     "languages": [
       {
         "name": "JavaScript",
-        "count": 39
+        "count": 40
       },
       {
         "name": "HTML",
@@ -45,22 +45,37 @@
       "title": "Muhammad Abu-Bakar",
       "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
       "topics": [
+        "JavaScript",
         "Python",
         "TypeScript",
-        "JavaScript",
         "HTML",
         "CSS"
       ],
       "stack": [
+        "JavaScript",
         "Python",
         "TypeScript",
-        "JavaScript",
         "HTML",
         "CSS"
       ],
       "body": "",
       "url": "https://github.com/MuhammadAbuBakar69",
       "updated": null
+    },
+    {
+      "id": "repo:ask-abubakar",
+      "kind": "repo",
+      "title": "ask-abubakar",
+      "summary": "Ask about Muhammad Abu-Bakar and his repositories. Answers are retrieved from public repo data and cite their source.",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Ask about Abu-Bakar A public page where anyone can ask about Muhammad Abu-Bakar and his repositories, and get an answer that cites its source. Live: https://muhammadabubakar69.github.io/ask-abubakar/ What it is, precisely A retrieval engine, not a language model. lib/retrieval.mjs scores every knowledge-base entry against the question and composes an answer from the winning entry's own fields. scripts/build-kb.mjs rebuilds that knowledge base from the GitHub API every day, so answers cannot drift from the code. Why not an LLM: a public page cannot hold a provider key, a proxy costs money per visitor, and a model would occasionally invent a project that does not exist. On a question about what someone has built, a lookup is both cheaper and more truthful. The engine returns insufficient rather than guessing: ask it about Rust firmware and it says it does not know. Guarantees - Every answer shows the repository it came from. - Unknown or unsupported questions refuse explicitly, with a low-confidence marker. - Nothing is fetched from a third party at runtime. The page reads one local JSON file. Local development Adding a language model later The honest place for one is a serverless function holding the key, and only to rephrase what retrieval already found. Concretely: keep answer() as the source of truth, POST {question, hits} to the function, and reject any response that introdu",
+      "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
+      "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
+      "stars": 0,
+      "updated": "2026-11-11"
     },
     {
       "id": "repo:MuhammadAbuBakar69",
@@ -388,7 +403,7 @@
       "stack": [
         "JavaScript"
       ],
-      "body": "Expense Splitter - React Vite Starter An intuitive bill-splitting application built with React and vanilla CSS. Easily track group expenses, see individual net balances, and calculate optimal settlement payments among friends. Features - Manage Friends : Add or remove members in your group. - Add Expenses : Track title, amount, payer, category, and choose who shares the cost. - Automated Settlement Calculations : Minimizes the total number of transactions needed to settle all group debts using a greedy algorithm. - Visual Balances : Instantly see who is owed money and who owes money. - LocalStorage Persistence : Saves your data in the browser automatically. - Clean Modern UI : Responsive design with tabbed navigation and interactive chips. Quick Start (Vite) 1. Create a Vite React project (or use an existing template): 2. Replace src/App.jsx with expense-splitter App.jsx and src/App.css with expense-splitter App.css . 3. Ensure import './App.css' is present at top of App.jsx . 4. Run the development server: Key Technologies - React : Functional components, useState , useEffect . - Vanilla CSS : CSS Custom Properties, Flexbox, CSS Grid. - LocalStorage API : Offline browser persistence.",
+      "body": "",
       "url": "https://github.com/MuhammadAbuBakar69/expense-splitter",
       "demo": null,
       "stars": 0,
