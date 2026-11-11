@@ -1,0 +1,11 @@
+{
+  "name": "ask-abubakar",
+  "private": true,
+  "type": "module",
+  "description": "Static, keyless question answering about Muhammad Abu-Bakar and his public repositories.",
+  "scripts": {
+    "kb": "node scripts/build-kb.mjs",
+    "test": "node --test lib/*.test.mjs",
+    "serve": "npx --yes serve public"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ask about Muhammad Abu-Bakar</title>
+<meta name="description" content="Ask about Muhammad Abu-Bakar's projects, stack and availability. Answers are retrieved from his public repositories and cite the source." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main class="shell">
+  <header class="head">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>retrieval over <span id="repo-count">public repos</span> · refreshed daily</p>
+    <h1>Ask about <em>Abu-Bakar</em></h1>
+    <p class="lede">Questions about his projects, stack and availability. Every answer is looked up in his public repositories and shows where it came from. It says so when it does not know.</p>
+  </header>
+
+  <section class="panel" aria-label="Chat">
+    <div class="transcript" id="transcript" role="log" aria-live="polite" aria-atomic="false">
+      <div class="turn assistant">
+        <p class="say">Ask about a project, a technology, or whether he is available. For example: what is ThreadMind?</p>
+      </div>
+    </div>
+
+    <form class="ask" id="ask" autocomplete="off">
+      <label class="sr-only" for="q">Your question</label>
+      <input id="q" name="q" type="text" placeholder="What is ThreadMind?" maxlength="240" required />
+      <button type="submit">Ask</button>
+    </form>
+
+    <div class="chips" id="chips" aria-label="Example questions"></div>
+    <p class="note" id="note"></p>
+  </section>
+
+  <footer class="foot">
+    <span>Sources are public repositories. No model is guessing: answers are matched, then cited.</span>
+    <a href="https://github.com/MuhammadAbuBakar69">github.com/MuhammadAbuBakar69</a>
+  </footer>
+</main>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

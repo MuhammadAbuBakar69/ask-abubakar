@@ -1,0 +1,1232 @@
+{
+  "generated_at": "2026-11-11",
+  "profile": {
+    "login": "MuhammadAbuBakar69",
+    "name": "Muhammad Abu-Bakar",
+    "location": null,
+    "status": "open to work",
+    "counts": {
+      "repos": 70,
+      "described": 70
+    },
+    "languages": [
+      {
+        "name": "JavaScript",
+        "count": 39
+      },
+      {
+        "name": "HTML",
+        "count": 10
+      },
+      {
+        "name": "TypeScript",
+        "count": 7
+      },
+      {
+        "name": "Python",
+        "count": 4
+      },
+      {
+        "name": "CSS",
+        "count": 4
+      }
+    ],
+    "links": {
+      "github": "https://github.com/MuhammadAbuBakar69",
+      "portfolio": "https://withabubakar.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/mohamad-abubakar/",
+      "email": "md.bakar2006@gmail.com"
+    }
+  },
+  "entries": [
+    {
+      "id": "fact:bio",
+      "kind": "fact",
+      "title": "Muhammad Abu-Bakar",
+      "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
+      "topics": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "stack": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69",
+      "updated": null
+    },
+    {
+      "id": "repo:MuhammadAbuBakar69",
+      "kind": "repo",
+      "title": "MuhammadAbuBakar69",
+      "summary": "Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap generated from the GitHub API every day.",
+      "topics": [
+        "automation",
+        "data-visualisation",
+        "github-actions",
+        "profile",
+        "python",
+        "svg"
+      ],
+      "stack": [
+        "Python",
+        "automation",
+        "data-visualisation",
+        "github-actions",
+        "profile",
+        "python",
+        "svg"
+      ],
+      "body": "-- portfolio &nbsp;/&nbsp; linkedin &nbsp;/&nbsp; github &nbsp;/&nbsp; email muhammadabubakar69@github ~ $ ./stack.sh Frontend Backend & Data AI / Automation Tools & Platforms muhammadabubakar69@github ~ $ ./featured.sh Project What it does Stack Stars :--- :--- :--- ---: Resumind ATS Checker JavaScript 1 booking-system Booking system with calendar and availability JavaScript 1 github-analyzer GitHub profile analyzer with stats via GitHub API JavaScript 1 Festivity Awwward Winning Website CSS 1 MuhammadAbuBakar69 Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap... Python 0 growthpilot-ai Growth analysis for one real business: a scored diagnosis across 7 dimensions, 19 page... TypeScript 0 muhammadabubakar69@github ~ $ ./snake.sh muhammadabubakar69@github ~ $ ./links.sh This README maintains itself. The cover, achievements, graph, streaks and language stats are pulled from the GitHub API every morning, so the numbers are always current. Nothing on this page is a hand-typed claim: if a figure stops being true, it changes on its own.",
+      "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "repo:growthpilot-ai",
+      "kind": "repo",
+      "title": "growthpilot-ai",
+      "summary": "Growth analysis for one real business: a scored diagnosis across 7 dimensions, 19 page checks, and a check of your answers against your own page. Local-first, no account.",
+      "topics": [
+        "business-intelligence",
+        "evidence-based",
+        "github-pages",
+        "growth",
+        "local-first",
+        "nextjs",
+        "seo",
+        "site-audit",
+        "static-site",
+        "typescript"
+      ],
+      "stack": [
+        "TypeScript",
+        "business-intelligence",
+        "evidence-based",
+        "github-pages",
+        "growth",
+        "local-first",
+        "nextjs",
+        "seo",
+        "site-audit",
+        "static-site",
+        "typescript"
+      ],
+      "body": "GrowthPilot A growth analysis for a real business: a scored diagnosis, findings that state their evidence, and a 30/60/90 plan. It opens straight into the app. No account, no sign-in, no server, no database. Live: https://muhammadabubakar69.github.io/growthpilot-ai/ Why it has no backend An earlier version of this project was a multi-tenant SaaS on Supabase with row-level security, auth middleware and a Vercel deployment. It worked, and it was the wrong shape for the job: a business owner had to sign up, confirm an email and create a workspace before seeing anything, and their answers then lived on a server that had to be secured, migrated and paid for. This version keeps the part that matters - the analysis - and removes the part that was friction. The app is a single static page. Your business is stored in your own browser, and the only network request the page ever makes is loading its own files. The three rules the engine follows 1. Nothing is invented. An unanswered dimension is reported as unavailable , never as zero, and no finding is built on a question you skipped. The overall score renormalises over what you actually answered, and shows how complete that is. 2. Every number shows its formula. A dimension score is earned / possible × 100 over that dimension's answers; the overall score is the weighted sum of dimension scores, weights in lib/engine.ts ( positioning 15, ",
+      "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
+      "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
+      "stars": 0,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "repo:inkplot",
+      "kind": "repo",
+      "title": "inkplot",
+      "summary": "Photo to vector halftone in the browser. Dots, squares or diamonds, live tone control, SVG export. No upload, no server.",
+      "topics": [
+        "generative-art",
+        "halftone",
+        "image-processing",
+        "no-server",
+        "privacy-first",
+        "react",
+        "svg",
+        "typescript",
+        "vector",
+        "vite"
+      ],
+      "stack": [
+        "TypeScript",
+        "generative-art",
+        "halftone",
+        "image-processing",
+        "no-server",
+        "privacy-first",
+        "react",
+        "svg",
+        "typescript",
+        "vector",
+        "vite"
+      ],
+      "body": "Inkplot Photo to vector halftone, in your browser. Dots, squares or diamonds. Live tone control. Exports clean SVG you can scale, print, or open in Illustrator. No upload, no server, no tracking: every pixel is processed in your tab. Open the studio → Why this exists Halftone portraits are usually either a Photoshop filter (raster, fixed resolution) or a paid web tool that wants your file on its server. Inkplot does the sampling in the browser and emits geometry : circles, rects, diamonds as SVG marks, not a bitmap copy. The output scales to any size, prints at any DPI, and stays editable. It is also the tool behind the dot portrait on my GitHub profile. How it works 1. The image is drawn to a canvas and reduced to one luminance value per pixel, with alpha treated as paper rather than ink. 2. Those values are binned into a grid whose size you control, so density is a live parameter instead of a baking step. 3. Each cell's tone becomes coverage through a gamma and contrast curve, then a mark whose size follows that coverage. Cells below the ink floor emit nothing, so paper stays paper. 4. Marks are written out as SVG. The ASCII button writes the same grid as text. Sampling, tone mapping and mark emission are separate pure functions in src/halftone.ts , which is why the engine is testable without a browser and why the export cannot drift from the preview. Use it Drop a photo, or ",
+      "url": "https://github.com/MuhammadAbuBakar69/inkplot",
+      "demo": "https://muhammadabubakar69.github.io/inkplot/",
+      "stars": 0,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "repo:Power-Digitizing",
+      "kind": "repo",
+      "title": "Power-Digitizing",
+      "summary": "new design",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "Multi-site platform (Power Digitizing + tenants) One Next.js codebase, many websites. The request hostname selects a site config; components never hardcode a brand. Run Locally every hostname falls back to DEFAULT SITE ID . To test another tenant, use its domain, e.g. add 127.0.0.1 client-001.example.com to your hosts file and open http://client-001.example.com:3000 . How tenants resolve middleware.ts forwards the hostname - lib/tenant.ts matches it against domains in config/sites/ (exact, or .sub.domain.com wildcards) - layout injects theme CSS variables, fonts, metadata and JSON-LD - shared components render that site's data. Add a site 1. Copy config/sites/client-001.ts , change id, domains, theme, content. 2. Register it in config/sites/index.ts . 3. Point the domain at your deployment and add it as a domain in your host (Vercel: Project Domains). The config is validated with Zod at build time; an invalid colour or missing field fails the build. Theme and fonts Colours are tokens ( background , primary , accent , ...) mapped to CSS variables. Fonts are chosen by key from lib/fonts.ts (next/font needs static declarations); add a font there and to FONT KEYS . Not built yet (next steps) Header/hero GSAP and Framer Motion polish, patches/portfolio/blog/process/testimonials/stats sections, service detail pages, quote form with uploads and Resend emails, analytics scripts, legal ",
+      "url": "https://github.com/MuhammadAbuBakar69/Power-Digitizing",
+      "demo": "https://power-digitizing.vercel.app",
+      "stars": 0,
+      "updated": "2026-11-09"
+    },
+    {
+      "id": "repo:otto",
+      "kind": "repo",
+      "title": "otto",
+      "summary": "Autonomous outreach agent with a $0 model bill. No API keys, no subscriptions, no accounts. Standard library only.",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "autonomous-agent",
+        "cold-email",
+        "human-in-the-loop",
+        "llm",
+        "local-first",
+        "no-api-key",
+        "ollama",
+        "outreach",
+        "privacy-first",
+        "python",
+        "sqlite",
+        "sqlite3"
+      ],
+      "stack": [
+        "Python",
+        "agentic-ai",
+        "ai-agent",
+        "autonomous-agent",
+        "cold-email",
+        "human-in-the-loop",
+        "llm",
+        "local-first",
+        "no-api-key",
+        "ollama",
+        "outreach",
+        "privacy-first",
+        "python",
+        "sqlite",
+        "sqlite3"
+      ],
+      "body": "otto Live site · CI · License: MIT The site has a working demo : it runs a JavaScript port of the pipeline in your browser, and a test asserts its drafts are byte-identical to the Python ones. An autonomous outreach agent with a $0 model bill. No API keys, no subscriptions, no accounts, no free trial that expires. Otto finds businesses worth talking to, reads their website, writes an email that mentions something true about them, queues it for your approval, sends it from your own mailbox, reads the replies, and drafts the answers. It runs on your machine in a loop. Harvey proved the shape of this product. Otto's argument is one step further: you should not have to rent a Claude or ChatGPT plan to run an agent on your own laptop. The agent is Python, the store is SQLite, the model is optional, the bill is zero. --- What it costs --- --- The agent $0, MIT, git clone Finding businesses $0 — a CSV you write, or OpenStreetMap/Overpass (no key) Reading their website $0 — three HTTP requests, no model call Deciding what to do next $0 — four SQL counts Sorting replies $0 — keyword rules Writing the email $0 — built-in templates, or a model you already run locally Sending your own mailbox (Gmail app password works, ~$0) Everything else $0 There is no third provider option on purpose. If it needs a key or a card, Otto does not call it. Why this is fast to run - Zero dependencies. Standa",
+      "url": "https://github.com/MuhammadAbuBakar69/otto",
+      "demo": "https://muhammadabubakar69.github.io/otto/",
+      "stars": 0,
+      "updated": "2026-11-06"
+    },
+    {
+      "id": "repo:threadmind-ai",
+      "kind": "repo",
+      "title": "threadmind-ai",
+      "summary": "Autonomous textile factory intelligence platform: fabric defect vision, predictive maintenance, evidence-grounded root cause analysis, and a five-agent LangGraph orchestrator. Research baseline v1.0.",
+      "topics": [
+        "computer-vision",
+        "fastapi",
+        "industrial-iot",
+        "langgraph",
+        "manufacturing-ai",
+        "multi-agent",
+        "nextjs",
+        "predictive-maintenance",
+        "research",
+        "textile"
+      ],
+      "stack": [
+        "Python",
+        "computer-vision",
+        "fastapi",
+        "industrial-iot",
+        "langgraph",
+        "manufacturing-ai",
+        "multi-agent",
+        "nextjs",
+        "predictive-maintenance",
+        "research",
+        "textile"
+      ],
+      "body": "ThreadMind AI Autonomous Textile Factory Intelligence Platform ThreadMind AI is a research platform that connects fabric quality inspection, machine telemetry, production records, and maintenance history into one industrial data layer, then reasons over that layer with specialized ML models and a coordinated multi-agent layer. The question it is built to answer is not only \"what defect occurred?\" but: What happened, where did it happen, which operational conditions were associated with it, what evidence supports the possible explanation, and what should the responsible engineer investigate next? Status: audited foundation. The security and isolation layer is implemented and tested; models, agents and the dashboard are not. Read docs/repository-audit.md for what is verified versus specified, and docs/production-readiness.md for the gap to operational use. Nothing in docs/ is a claim of achieved model performance. --- What is in the box Component Path State --- --- --- Requirements, audit and reviews docs/ Baseline v1.0 + audit PostgreSQL schema database/schemas/001 initial.sql 24 tables, RLS enforced RLS hardening migration database/migrations/002 rls hardening.sql Implemented + tested FastAPI application layer apps/api Auth, RBAC, errors, telemetry ingest Shared industrial contracts industrial/ Telemetry validation Deterministic telemetry simulator ai-services/telemetry Impleme",
+      "url": "https://github.com/MuhammadAbuBakar69/threadmind-ai",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-11-05"
+    },
+    {
+      "id": "repo:jobpilot",
+      "kind": "repo",
+      "title": "jobpilot",
+      "summary": "Track job applications from raw posting text. Offline parser, optional FastRouter/OpenAI extractor, SQLite store, FastAPI + CLI. Live docs on GitHub Pages, image on GHCR.",
+      "topics": [
+        "cli",
+        "fastapi",
+        "github-actions",
+        "job-search",
+        "llm",
+        "pytest",
+        "python",
+        "sqlite"
+      ],
+      "stack": [
+        "Python",
+        "cli",
+        "fastapi",
+        "github-actions",
+        "job-search",
+        "llm",
+        "pytest",
+        "python",
+        "sqlite"
+      ],
+      "body": "jobpilot Turn a messy job posting into a tracked application, in one command. Live docs : Container : ghcr.io/muhammadabubakar69/jobpilot Most job hunts die in a spreadsheet nobody updates. jobpilot takes the raw text of a posting (an email, a WhatsApp forward, a scraped page) and turns it into a structured record: company, role, salary band, deadline, stack, contact. It runs entirely offline by default, and uses an LLM only when you ask it to. Why it exists Parsing a posting is the tedious part of applying, and the record you need later (what did they pay? when did I apply? did they answer?) is exactly what gets lost. This keeps one SQLite file you own, plus a REST API for anything else you want to point at it. Design Two decisions worth calling out: - The LLM is optional and never trusted blindly. parse with llm validates the JSON, keeps only integers for salary, and merges against the heuristic result, so a hallucinated field falls back to what the regexes actually found. - Deduplication is by fingerprint. Re-importing the same posting is a no-op instead of a duplicate row. Run it Three ways, pick one: The container serves the REST API; docker/build is reproducible because the image pins Python 3.12 and installs the package from pyproject.toml . Quickstart With an LLM extractor Off by default. Set a key and pass --llm : Any OpenAI-compatible endpoint works. resolve llm confi",
+      "url": "https://github.com/MuhammadAbuBakar69/jobpilot",
+      "demo": "https://muhammadabubakar69.github.io/jobpilot/",
+      "stars": 0,
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "repo:Resumind",
+      "kind": "repo",
+      "title": "Resumind",
+      "summary": "ATS Checker",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "AI Resume Analyzer Build an AI-powered resume analyzer that provides smart feedback, ATS scoring, and seamless cloud integration — all in your browser, without any backend setup. --- 📋 Table of Contents 1. ✨ Introduction 2. ⚙️ Tech Stack 3. 🔋 Features 4. 🤸 Quick Start 5. 🔗 Assets 6. 🚀 More --- ✨ Introduction AI Resume Analyzer is a next-generation web app built with React , TypeScript , and Puter.js that allows users to upload, analyze, and evaluate resumes using advanced AI capabilities — all directly in the browser. It eliminates the need for traditional backend services by leveraging Puter.js , enabling serverless authentication , cloud storage , and AI integrations such as GPT, Claude, DALL·E, and OCR. The goal: empower candidates to improve their resumes with real-time insights, job-fit scoring, and actionable feedback — wrapped in a sleek, modern interface. --- 🔋 Features ✅ Serverless Authentication — Sign in and manage sessions securely with Puter.js , no backend setup required. ✅ Resume Upload & Storage — Store and retrieve resumes effortlessly using Puter’s cloud storage. ✅ AI-Powered Resume Matching — Analyze resumes against job listings and generate ATS scores with intelligent feedback. ✅ Custom Feedback Reports — Get detailed insights on resume formatting, content, and keyword optimization. ✅ Reusable Modern UI — Built with React , Tailwind , and shadcn/ui for",
+      "url": "https://github.com/MuhammadAbuBakar69/Resumind",
+      "demo": null,
+      "stars": 1,
+      "updated": "2026-08-21"
+    },
+    {
+      "id": "repo:github-analyzer",
+      "kind": "repo",
+      "title": "github-analyzer",
+      "summary": "GitHub profile analyzer with stats via GitHub API",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "GitHub Profile Analyzer React Component An interactive GitHub Profile Analyzer dashboard built with React and custom dark-theme CSS using the official GitHub REST API. Features - User Search : Instant lookup for any public GitHub user account - Profile Summary : Displays avatar, bio, location, company, blog, creation date, and followers/following metrics - Aggregated Stats : Shows public repository counts, total accumulated stars, total forks, and top programming languages - Repository List : Interactive grid displaying repository cards with description, language badge, star count, fork count, and direct GitHub links - Sorting Options : Sort repos by Most Stars, Most Forks, or Recently Updated - Error & Loading States : Clean indicators for non-existent users, API rate limits, or network issues Setup and Usage 1. Add github-analyzer App.jsx and github-analyzer App.css to your Vite React workspace. 2. Render the component in src/main.jsx : 3. Run Vite dev server:",
+      "url": "https://github.com/MuhammadAbuBakar69/github-analyzer",
+      "demo": null,
+      "stars": 1,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:booking-system",
+      "kind": "repo",
+      "title": "booking-system",
+      "summary": "Booking system with calendar and availability",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Booking System Starter Code An interactive appointment & calendar booking interface built with React and localStorage. Features - Monthly Calendar Grid : Render current month with date picker and navigation. - Slot Selector : View available time slots for selected dates. - Booking Modal : Reserve slots with name, email, service choice, and optional notes. - Unavailable Slots : Booked slots show as disabled and styled as unavailable. - LocalStorage Persistence : Maintains state across page reloads. - Upcoming Bookings Sidebar : View active reservations with cancel functionality. Files - booking-system App.jsx - booking-system App.css - booking-system README.md",
+      "url": "https://github.com/MuhammadAbuBakar69/booking-system",
+      "demo": null,
+      "stars": 1,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:snippet-manager",
+      "kind": "repo",
+      "title": "snippet-manager",
+      "summary": "Code snippet manager with syntax highlighting",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Code Snippet Manager Starter Code A dark IDE-style code snippet vault built with React and localStorage. Features - Snippet Library : Store and organize snippets across JavaScript, Python, CSS, SQL, HTML, TypeScript, etc. - Search & Language Filters : Instant client-side filtering by code title, description, or programming language. - Copy to Clipboard : Quick copy button with visual feedback indicator. - IDE Syntax Window : Dark themed code preview in with monospace font. - Add / Delete Snippets : Create custom snippets with descriptions and persistent localStorage saving. Files - snippet-manager App.jsx - snippet-manager App.css - snippet-manager README.md",
+      "url": "https://github.com/MuhammadAbuBakar69/snippet-manager",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:pomodoro-timer",
+      "kind": "repo",
+      "title": "pomodoro-timer",
+      "summary": "Pomodoro timer with session stats and streak tracking",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Pomodoro Timer - React Vite Starter A sleek, dark-themed Pomodoro focus timer with circular progress ring, audio notifications, and session activity tracking. Features - 3 Timer Modes : - Pomodoro (25 min focus) - Short Break (5 min rest) - Long Break (15 min rest) - SVG Circular Progress Ring : Smooth visual feedback for time remaining. - Audio Chime : Native Web Audio API sound chime when timer completes (no audio assets required). - Session Stats : - Completed Pomodoros counter. - Cumulative focus time in minutes. - Cycle tracker (4 sessions per long break). - Tab Title Sync : View remaining time directly on your browser tab title. - LocalStorage Persistence : Saves completed session counts automatically. Quick Start (Vite) 1. Create a Vite React project: 2. Replace src/App.jsx with pomodoro-timer App.jsx and src/App.css with pomodoro-timer App.css . 3. Ensure import './App.css' is present at top of App.jsx . 4. Start dev server:",
+      "url": "https://github.com/MuhammadAbuBakar69/pomodoro-timer",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:kanban-board",
+      "kind": "repo",
+      "title": "kanban-board",
+      "summary": "Drag-and-drop Kanban board for task management",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Drag-and-Drop Kanban Board A feature-rich, drag-and-drop Kanban task management board built in React using native HTML5 drag-and-drop APIs. Features - 3 Status Columns : To Do, In Progress, and Done. - HTML5 Drag-and-Drop : Drag task cards seamlessly between columns with visual highlight drop zones. - Task Management : Add new tasks with custom title and priority level (Low, Medium, High). - Task Counter : Live task count per column. - Fallback Mobile Controls : Move left/right buttons for touch devices. - Task Deletion : One-click task removal. - Persistent Data : Automatically persists task state in localStorage . - Colored Columns : Distinct visual themes per column status. Tech Stack - React (Vite) - CSS3 (CSS Grid, flexbox, HTML5 drag styling) Quick Start 1. Copy App.jsx and App.css into your Vite React project. 2. Run npm run dev . - Priority Filter : Quickly filter the board by High, Medium, or Low priority.",
+      "url": "https://github.com/MuhammadAbuBakar69/kanban-board",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:expense-splitter",
+      "kind": "repo",
+      "title": "expense-splitter",
+      "summary": "Split bills among friends — track who owes what",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Expense Splitter - React Vite Starter An intuitive bill-splitting application built with React and vanilla CSS. Easily track group expenses, see individual net balances, and calculate optimal settlement payments among friends. Features - Manage Friends : Add or remove members in your group. - Add Expenses : Track title, amount, payer, category, and choose who shares the cost. - Automated Settlement Calculations : Minimizes the total number of transactions needed to settle all group debts using a greedy algorithm. - Visual Balances : Instantly see who is owed money and who owes money. - LocalStorage Persistence : Saves your data in the browser automatically. - Clean Modern UI : Responsive design with tabbed navigation and interactive chips. Quick Start (Vite) 1. Create a Vite React project (or use an existing template): 2. Replace src/App.jsx with expense-splitter App.jsx and src/App.css with expense-splitter App.css . 3. Ensure import './App.css' is present at top of App.jsx . 4. Run the development server: Key Technologies - React : Functional components, useState , useEffect . - Vanilla CSS : CSS Custom Properties, Flexbox, CSS Grid. - LocalStorage API : Offline browser persistence.",
+      "url": "https://github.com/MuhammadAbuBakar69/expense-splitter",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:quiz-app",
+      "kind": "repo",
+      "title": "quiz-app",
+      "summary": "Quiz app with score tracking and multiple categories",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/quiz-app",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:markdown-editor",
+      "kind": "repo",
+      "title": "markdown-editor",
+      "summary": "Markdown editor with live HTML preview — vanilla JS",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/markdown-editor",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:habit-tracker",
+      "kind": "repo",
+      "title": "habit-tracker",
+      "summary": "🎯 Minimalist habit tracker with streak tracking and localStorage persistence — vanilla JS",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/habit-tracker",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:weather-now",
+      "kind": "repo",
+      "title": "weather-now",
+      "summary": "🌤️ Real-time weather app with city search and 5-day forecast — powered by Open-Meteo",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/weather-now",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:ai-chat-interface",
+      "kind": "repo",
+      "title": "ai-chat-interface",
+      "summary": "AI chat interface with streaming-style responses",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/ai-chat-interface",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:standup-board",
+      "kind": "repo",
+      "title": "standup-board",
+      "summary": "Team standup and retro board tool",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/standup-board",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:meal-planner",
+      "kind": "repo",
+      "title": "meal-planner",
+      "summary": "Recipe meal planner with grocery list generator",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/meal-planner",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:crypto-tracker",
+      "kind": "repo",
+      "title": "crypto-tracker",
+      "summary": "Crypto portfolio tracker with live prices",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/crypto-tracker",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:elearning-platform",
+      "kind": "repo",
+      "title": "elearning-platform",
+      "summary": "E-learning platform with progress tracking",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/elearning-platform",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:social-dashboard",
+      "kind": "repo",
+      "title": "social-dashboard",
+      "summary": "Social media analytics dashboard UI",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/social-dashboard",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:kanban-time-tracker",
+      "kind": "repo",
+      "title": "kanban-time-tracker",
+      "summary": "Kanban board with integrated time tracking",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/kanban-time-tracker",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:whiteboard",
+      "kind": "repo",
+      "title": "whiteboard",
+      "summary": "Collaborative whiteboard with canvas drawing",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/whiteboard",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:music-player",
+      "kind": "repo",
+      "title": "music-player",
+      "summary": "Music player with playlist queue and controls",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/music-player",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:form-wizard",
+      "kind": "repo",
+      "title": "form-wizard",
+      "summary": "Multi-step form wizard with validation",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/form-wizard",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:portfolio-cms",
+      "kind": "repo",
+      "title": "portfolio-cms",
+      "summary": "Portfolio CMS with editable admin panel",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/portfolio-cms",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:chat-ui",
+      "kind": "repo",
+      "title": "chat-ui",
+      "summary": "Real-time chat UI mock with message history",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/chat-ui",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:job-tracker",
+      "kind": "repo",
+      "title": "job-tracker",
+      "summary": "Job application tracker with status pipeline",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/job-tracker",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:finance-tracker",
+      "kind": "repo",
+      "title": "finance-tracker",
+      "summary": "Personal finance tracker with charts and categories",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/finance-tracker",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:movie-discovery",
+      "kind": "repo",
+      "title": "movie-discovery",
+      "summary": "Movie discovery app using TMDB API with watchlist",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/movie-discovery",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:product-filter",
+      "kind": "repo",
+      "title": "product-filter",
+      "summary": "E-commerce product filter and search UI",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/product-filter",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:bmi-calculator",
+      "kind": "repo",
+      "title": "bmi-calculator",
+      "summary": "BMI calculator with history log and visual chart",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/bmi-calculator",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:password-generator",
+      "kind": "repo",
+      "title": "password-generator",
+      "summary": "Random password generator with strength meter",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/password-generator",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:currency-converter",
+      "kind": "repo",
+      "title": "currency-converter",
+      "summary": "Currency converter with live exchange rates — vanilla JS",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/currency-converter",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:recipe-finder",
+      "kind": "repo",
+      "title": "recipe-finder",
+      "summary": "Search recipes by ingredient via free API — vanilla JS",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/recipe-finder",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-11"
+    },
+    {
+      "id": "repo:priv",
+      "kind": "repo",
+      "title": "priv",
+      "summary": "",
+      "topics": [],
+      "stack": [],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/priv",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-10"
+    },
+    {
+      "id": "repo:mini-calculator",
+      "kind": "repo",
+      "title": "mini-calculator",
+      "summary": "🧮 Clean, functional calculator with keyboard support and operation history — vanilla JS",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/mini-calculator",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-08-10"
+    },
+    {
+      "id": "repo:gamming-panel",
+      "kind": "repo",
+      "title": "gamming-panel",
+      "summary": "gamming panel",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/gamming-panel",
+      "demo": "https://gamming-panel.vercel.app",
+      "stars": 0,
+      "updated": "2026-08-10"
+    },
+    {
+      "id": "repo:Cv-Analyzer",
+      "kind": "repo",
+      "title": "Cv-Analyzer",
+      "summary": "For students",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Cv-Analyzer",
+      "demo": "https://cv-analyzer-rosy.vercel.app",
+      "stars": 0,
+      "updated": "2026-08-10"
+    },
+    {
+      "id": "repo:3d-portfolio",
+      "kind": "repo",
+      "title": "3d-portfolio",
+      "summary": "3d Portfolio",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/3d-portfolio",
+      "demo": "https://port-folio-3d.netlify.app/",
+      "stars": 0,
+      "updated": "2026-08-10"
+    },
+    {
+      "id": "repo:stock-tracker-app",
+      "kind": "repo",
+      "title": "stock-tracker-app",
+      "summary": "Stock signalist",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/stock-tracker-app",
+      "demo": "https://stock-tracker-app-roan.vercel.app",
+      "stars": 0,
+      "updated": "2026-07-06"
+    },
+    {
+      "id": "repo:AI-Resume-Analyzer-",
+      "kind": "repo",
+      "title": "AI-Resume-Analyzer-",
+      "summary": "For getting your job journey",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/AI-Resume-Analyzer-",
+      "demo": "https://ai-resume-analyzer-1d6v.vercel.app",
+      "stars": 0,
+      "updated": "2026-07-06"
+    },
+    {
+      "id": "repo:Thread-Aura-Studio",
+      "kind": "repo",
+      "title": "Thread-Aura-Studio",
+      "summary": "Digitizing Experts",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Thread-Aura-Studio",
+      "demo": "https://thread-aura-studio.vercel.app",
+      "stars": 0,
+      "updated": "2026-04-23"
+    },
+    {
+      "id": "repo:Web-Engg",
+      "kind": "repo",
+      "title": "Web-Engg",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "CSS"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Web-Engg",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-03-31"
+    },
+    {
+      "id": "repo:Cre8-Fusion",
+      "kind": "repo",
+      "title": "Cre8-Fusion",
+      "summary": "Saas Application",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Cre8-Fusion",
+      "demo": "https://cre8-fusion.vercel.app",
+      "stars": 0,
+      "updated": "2026-03-26"
+    },
+    {
+      "id": "repo:Festivity",
+      "kind": "repo",
+      "title": "Festivity",
+      "summary": "Awwward Winning Website",
+      "topics": [],
+      "stack": [
+        "CSS"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Festivity",
+      "demo": "https://festivity-chi.vercel.app",
+      "stars": 1,
+      "updated": "2026-03-09"
+    },
+    {
+      "id": "repo:AI-resume-checker",
+      "kind": "repo",
+      "title": "AI-resume-checker",
+      "summary": "For getting your job journey and collab",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/AI-resume-checker",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-01-12"
+    },
+    {
+      "id": "repo:CV-checker",
+      "kind": "repo",
+      "title": "CV-checker",
+      "summary": "Get your dream job",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/CV-checker",
+      "demo": "https://cv-checker-mu.vercel.app",
+      "stars": 0,
+      "updated": "2025-11-20"
+    },
+    {
+      "id": "repo:suburbia",
+      "kind": "repo",
+      "title": "suburbia",
+      "summary": "Skateboard webiste",
+      "topics": [],
+      "stack": [],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/suburbia",
+      "demo": null,
+      "stars": 0,
+      "updated": "2025-09-04"
+    },
+    {
+      "id": "repo:cre8fusion",
+      "kind": "repo",
+      "title": "cre8fusion",
+      "summary": "Professional website Agency website",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/cre8fusion",
+      "demo": null,
+      "stars": 0,
+      "updated": "2025-06-01"
+    },
+    {
+      "id": "repo:Xora",
+      "kind": "repo",
+      "title": "Xora",
+      "summary": "",
+      "topics": [],
+      "stack": [],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Xora",
+      "demo": null,
+      "stars": 0,
+      "updated": "2025-05-15"
+    },
+    {
+      "id": "repo:Two-Good-Co",
+      "kind": "repo",
+      "title": "Two-Good-Co",
+      "summary": "Professional website ",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Two-Good-Co",
+      "demo": null,
+      "stars": 0,
+      "updated": "2025-05-11"
+    },
+    {
+      "id": "repo:AriaUpdate",
+      "kind": "repo",
+      "title": "AriaUpdate",
+      "summary": "Like A google Meet ",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/AriaUpdate",
+      "demo": null,
+      "stars": 0,
+      "updated": "2025-01-02"
+    },
+    {
+      "id": "repo:My-ARIA-Web",
+      "kind": "repo",
+      "title": "My-ARIA-Web",
+      "summary": "Here My ARIA dev For Over in world",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/My-ARIA-Web",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-12-01"
+    },
+    {
+      "id": "repo:Aria-Meet",
+      "kind": "repo",
+      "title": "Aria-Meet",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Aria-Meet",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-25"
+    },
+    {
+      "id": "repo:Quizz-Application",
+      "kind": "repo",
+      "title": "Quizz-Application",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Quizz-Application",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-22"
+    },
+    {
+      "id": "repo:Quizz-App",
+      "kind": "repo",
+      "title": "Quizz-App",
+      "summary": "",
+      "topics": [],
+      "stack": [],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Quizz-App",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-22"
+    },
+    {
+      "id": "repo:Aria-dev",
+      "kind": "repo",
+      "title": "Aria-dev",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "CSS"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Aria-dev",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-21"
+    },
+    {
+      "id": "repo:zelt.com",
+      "kind": "repo",
+      "title": "zelt.com",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/zelt.com",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-19"
+    },
+    {
+      "id": "repo:Weather-app",
+      "kind": "repo",
+      "title": "Weather-app",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Weather-app",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-18"
+    },
+    {
+      "id": "repo:Cyberfiction-Website",
+      "kind": "repo",
+      "title": "Cyberfiction-Website",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Cyberfiction-Website",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-11"
+    },
+    {
+      "id": "repo:Uni-task-to-do-list",
+      "kind": "repo",
+      "title": "Uni-task-to-do-list",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Uni-task-to-do-list",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-09"
+    },
+    {
+      "id": "repo:health-Website",
+      "kind": "repo",
+      "title": "health-Website",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "HTML"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/health-Website",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-04"
+    },
+    {
+      "id": "repo:Aria-Ai",
+      "kind": "repo",
+      "title": "Aria-Ai",
+      "summary": "",
+      "topics": [],
+      "stack": [],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Aria-Ai",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-11-02"
+    },
+    {
+      "id": "repo:SolidSaas",
+      "kind": "repo",
+      "title": "SolidSaas",
+      "summary": "Solid Sass is a responsive web project crafted with React, Tailwind CSS, and Sass, designed to showcase best practices in scalable and maintainable front-end styling. ",
+      "topics": [],
+      "stack": [
+        "CSS"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/SolidSaas",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-10-28"
+    },
+    {
+      "id": "repo:content-ops-starter",
+      "kind": "repo",
+      "title": "content-ops-starter",
+      "summary": "",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/content-ops-starter",
+      "demo": null,
+      "stars": 0,
+      "updated": "2024-09-25"
+    },
+    {
+      "id": "repo:Md-Abu-bakar-69",
+      "kind": "repo",
+      "title": "Md-Abu-bakar-69",
+      "summary": "Config files for my GitHub profile.",
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "stack": [
+        "config",
+        "github-config"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Md-Abu-bakar-69",
+      "demo": "https://github.com/Md-Abu-bakar-69",
+      "stars": 0,
+      "updated": "2024-02-28"
+    }
+  ]
+}
