@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "profile": {
     "login": "MuhammadAbuBakar69",
     "name": "Muhammad Abu-Bakar",
@@ -45,15 +45,15 @@
       "title": "Muhammad Abu-Bakar",
       "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
       "topics": [
-        "JavaScript",
         "Python",
+        "JavaScript",
         "TypeScript",
         "HTML",
         "CSS"
       ],
       "stack": [
-        "JavaScript",
         "Python",
+        "JavaScript",
         "TypeScript",
         "HTML",
         "CSS"
@@ -61,21 +61,6 @@
       "body": "",
       "url": "https://github.com/MuhammadAbuBakar69",
       "updated": null
-    },
-    {
-      "id": "repo:ask-abubakar",
-      "kind": "repo",
-      "title": "ask-abubakar",
-      "summary": "Ask about Muhammad Abu-Bakar and his repositories. Answers are retrieved from public repo data and cite their source.",
-      "topics": [],
-      "stack": [
-        "JavaScript"
-      ],
-      "body": "Ask about Abu-Bakar A public page where anyone can ask about Muhammad Abu-Bakar and his repositories, and get an answer that cites its source. Live: https://muhammadabubakar69.github.io/ask-abubakar/ What it is, precisely A retrieval engine, not a language model. lib/retrieval.mjs scores every knowledge-base entry against the question and composes an answer from the winning entry's own fields. scripts/build-kb.mjs rebuilds that knowledge base from the GitHub API every day, so answers cannot drift from the code. Why not an LLM: a public page cannot hold a provider key, a proxy costs money per visitor, and a model would occasionally invent a project that does not exist. On a question about what someone has built, a lookup is both cheaper and more truthful. The engine returns insufficient rather than guessing: ask it about Rust firmware and it says it does not know. Guarantees - Every answer shows the repository it came from. - Unknown or unsupported questions refuse explicitly, with a low-confidence marker. - Nothing is fetched from a third party at runtime. The page reads one local JSON file. Local development Adding a language model later The honest place for one is a serverless function holding the key, and only to rephrase what retrieval already found. Concretely: keep answer() as the source of truth, POST {question, hits} to the function, and reject any response that introdu",
-      "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
-      "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
-      "stars": 0,
-      "updated": "2026-11-11"
     },
     {
       "id": "repo:MuhammadAbuBakar69",
@@ -99,9 +84,24 @@
         "python",
         "svg"
       ],
-      "body": "-- portfolio &nbsp;/&nbsp; linkedin &nbsp;/&nbsp; github &nbsp;/&nbsp; email muhammadabubakar69@github ~ $ ./stack.sh Frontend Backend & Data AI / Automation Tools & Platforms muhammadabubakar69@github ~ $ ./featured.sh Project What it does Stack Stars :--- :--- :--- ---: Resumind ATS Checker JavaScript 1 booking-system Booking system with calendar and availability JavaScript 1 github-analyzer GitHub profile analyzer with stats via GitHub API JavaScript 1 Festivity Awwward Winning Website CSS 1 MuhammadAbuBakar69 Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap... Python 0 growthpilot-ai Growth analysis for one real business: a scored diagnosis across 7 dimensions, 19 page... TypeScript 0 muhammadabubakar69@github ~ $ ./snake.sh muhammadabubakar69@github ~ $ ./links.sh This README maintains itself. The cover, achievements, graph, streaks and language stats are pulled from the GitHub API every morning, so the numbers are always current. Nothing on this page is a hand-typed claim: if a figure stops being true, it changes on its own.",
+      "body": "-- ask about me &nbsp;/&nbsp; portfolio &nbsp;/&nbsp; linkedin &nbsp;/&nbsp; github &nbsp;/&nbsp; email muhammadabubakar69@github ~ $ ./stack.sh Frontend Backend & Data AI / Automation Tools & Platforms muhammadabubakar69@github ~ $ ./featured.sh Project What it does Stack Stars :--- :--- :--- ---: Resumind ATS Checker JavaScript 1 booking-system Booking system with calendar and availability JavaScript 1 github-analyzer GitHub profile analyzer with stats via GitHub API JavaScript 1 Festivity Awwward Winning Website CSS 1 MuhammadAbuBakar69 Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap... Python 0 growthpilot-ai Growth analysis for one real business: a scored diagnosis across 7 dimensions, 19 page... TypeScript 0 muhammadabubakar69@github ~ $ ./snake.sh muhammadabubakar69@github ~ $ ./links.sh This README maintains itself. The cover, achievements, graph, streaks and language stats are pulled from the GitHub API every morning, so the numbers are always current. Nothing on this page is a hand-typed claim: if a figure stops being true, it changes on its own.",
       "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
       "demo": null,
+      "stars": 0,
+      "updated": "2026-11-12"
+    },
+    {
+      "id": "repo:ask-abubakar",
+      "kind": "repo",
+      "title": "ask-abubakar",
+      "summary": "Ask about Muhammad Abu-Bakar and his repositories. Answers are retrieved from public repo data and cite their source.",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Ask about Abu-Bakar A public page where anyone can ask about Muhammad Abu-Bakar and his repositories, and get an answer that cites its source. Live: https://muhammadabubakar69.github.io/ask-abubakar/ What it is, precisely A retrieval engine, not a language model. lib/retrieval.mjs scores every knowledge-base entry against the question and composes an answer from the winning entry's own fields. scripts/build-kb.mjs rebuilds that knowledge base from the GitHub API every day, so answers cannot drift from the code. Why not an LLM: a public page cannot hold a provider key, a proxy costs money per visitor, and a model would occasionally invent a project that does not exist. On a question about what someone has built, a lookup is both cheaper and more truthful. The engine returns insufficient rather than guessing: ask it about Rust firmware and it says it does not know. Guarantees - Every answer shows the repository it came from. - Unknown or unsupported questions refuse explicitly, with a low-confidence marker. - Nothing is fetched from a third party at runtime. The page reads one local JSON file. Local development Adding a language model later The honest place for one is a serverless function holding the key, and only to rephrase what retrieval already found. Concretely: keep answer() as the source of truth, POST {question, hits} to the function, and reject any response that introdu",
+      "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
+      "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
       "stars": 0,
       "updated": "2026-11-11"
     },
