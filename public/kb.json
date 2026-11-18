@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-17",
+  "generated_at": "2026-11-18",
   "profile": {
     "login": "MuhammadAbuBakar69",
     "name": "Muhammad Abu-Bakar",
     "location": null,
     "status": "open to work",
     "counts": {
-      "repos": 71,
-      "described": 71
+      "repos": 72,
+      "described": 72
     },
     "languages": [
       {
         "name": "JavaScript",
-        "count": 40
+        "count": 41
       },
       {
         "name": "HTML",
@@ -45,22 +45,73 @@
       "title": "Muhammad Abu-Bakar",
       "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
       "topics": [
-        "Python",
         "TypeScript",
         "JavaScript",
+        "Python",
         "HTML",
         "CSS"
       ],
       "stack": [
-        "Python",
         "TypeScript",
         "JavaScript",
+        "Python",
         "HTML",
         "CSS"
       ],
       "body": "",
       "url": "https://github.com/MuhammadAbuBakar69",
       "updated": null
+    },
+    {
+      "id": "repo:Power-Digitizing",
+      "kind": "repo",
+      "title": "Power-Digitizing",
+      "summary": "new design",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "Multi-site platform (Power Digitizing + tenants) One Next.js codebase, many websites. The request hostname selects a site config; components never hardcode a brand. Run Locally every hostname falls back to DEFAULT SITE ID . To test another tenant, use its domain, e.g. add 127.0.0.1 client-001.example.com to your hosts file and open http://client-001.example.com:3000 . How tenants resolve middleware.ts forwards the hostname - lib/tenant.ts matches it against domains in config/sites/ (exact, or .sub.domain.com wildcards) - layout injects theme CSS variables, fonts, metadata and JSON-LD - shared components render that site's data. Add a site 1. Copy config/sites/client-001.ts , change id, domains, theme, content. 2. Register it in config/sites/index.ts . 3. Point the domain at your deployment and add it as a domain in your host (Vercel: Project Domains). The config is validated with Zod at build time; an invalid colour or missing field fails the build. Theme and fonts Colours are tokens ( background , primary , accent , ...) mapped to CSS variables. Fonts are chosen by key from lib/fonts.ts (next/font needs static declarations); add a font there and to FONT KEYS . Not built yet (next steps) Header/hero GSAP and Framer Motion polish, patches/portfolio/blog/process/testimonials/stats sections, service detail pages, quote form with uploads and Resend emails, analytics scripts, legal ",
+      "url": "https://github.com/MuhammadAbuBakar69/Power-Digitizing",
+      "demo": "https://power-digitizing.vercel.app",
+      "stars": 0,
+      "updated": "2026-11-18"
+    },
+    {
+      "id": "repo:flowmind-ai",
+      "kind": "repo",
+      "title": "flowmind-ai",
+      "summary": "Build Intelligent Workflows. Automate Everything. Visual AI workflow automation and autonomous agent platform (n8n / Zapier / Make class) built on Base44.",
+      "topics": [
+        "ai-agents",
+        "automation",
+        "base44",
+        "llm",
+        "n8n",
+        "no-code",
+        "node-editor",
+        "react",
+        "saas",
+        "workflow-automation"
+      ],
+      "stack": [
+        "JavaScript",
+        "ai-agents",
+        "automation",
+        "base44",
+        "llm",
+        "n8n",
+        "no-code",
+        "node-editor",
+        "react",
+        "saas",
+        "workflow-automation"
+      ],
+      "body": "FlowMind AI Build Intelligent Workflows. Automate Everything. A visual AI workflow automation and autonomous agent platform in the class of n8n, Zapier, Make and MachineCraft.io. Built on Base44: real entities, real backend functions, real scheduling, real execution logs. No mock dashboards, no fake connected states, no invented run history. Status: audited, editor deployed, product not built. The implementation audit found no application instance in the Base44 account: 0 of 18 entities, 0 backend functions, 0 pages. The workflow studio is deployed as a static build (real graph engine, real validation, local persistence) so the editor is usable today while the backend waits on the app instance. Every category is graded missing , not broken . The specification, data model, engine design, contracts and test plan are complete here. The app instance is created in the Base44 builder, since new app creation is not scriptable from an agent session, then driven phase by phase against the briefs in docs/ . --- Live editor https://muhammadabubakar69.github.io/flowmind-ai/ A working workflow studio you can open right now. No build step, no framework, no backend. What is real in this build: - Graph editor. Drag components from the library onto the canvas, move nodes, pull a connection from an output port to an input port, click a connection to delete it. - Node registry. 35 node types acro",
+      "url": "https://github.com/MuhammadAbuBakar69/flowmind-ai",
+      "demo": "https://app.base44.com",
+      "stars": 0,
+      "updated": "2026-11-18"
     },
     {
       "id": "repo:MuhammadAbuBakar69",
@@ -88,7 +139,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
       "demo": null,
       "stars": 0,
-      "updated": "2026-11-17"
+      "updated": "2026-11-18"
     },
     {
       "id": "repo:growthpilot-ai",
@@ -124,7 +175,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
       "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
       "stars": 0,
-      "updated": "2026-11-16"
+      "updated": "2026-11-17"
     },
     {
       "id": "repo:ask-abubakar",
@@ -139,7 +190,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
       "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
       "stars": 0,
-      "updated": "2026-11-16"
+      "updated": "2026-11-17"
     },
     {
       "id": "repo:inkplot",
@@ -176,21 +227,6 @@
       "demo": "https://muhammadabubakar69.github.io/inkplot/",
       "stars": 0,
       "updated": "2026-11-11"
-    },
-    {
-      "id": "repo:Power-Digitizing",
-      "kind": "repo",
-      "title": "Power-Digitizing",
-      "summary": "new design",
-      "topics": [],
-      "stack": [
-        "TypeScript"
-      ],
-      "body": "Multi-site platform (Power Digitizing + tenants) One Next.js codebase, many websites. The request hostname selects a site config; components never hardcode a brand. Run Locally every hostname falls back to DEFAULT SITE ID . To test another tenant, use its domain, e.g. add 127.0.0.1 client-001.example.com to your hosts file and open http://client-001.example.com:3000 . How tenants resolve middleware.ts forwards the hostname - lib/tenant.ts matches it against domains in config/sites/ (exact, or .sub.domain.com wildcards) - layout injects theme CSS variables, fonts, metadata and JSON-LD - shared components render that site's data. Add a site 1. Copy config/sites/client-001.ts , change id, domains, theme, content. 2. Register it in config/sites/index.ts . 3. Point the domain at your deployment and add it as a domain in your host (Vercel: Project Domains). The config is validated with Zod at build time; an invalid colour or missing field fails the build. Theme and fonts Colours are tokens ( background , primary , accent , ...) mapped to CSS variables. Fonts are chosen by key from lib/fonts.ts (next/font needs static declarations); add a font there and to FONT KEYS . Not built yet (next steps) Header/hero GSAP and Framer Motion polish, patches/portfolio/blog/process/testimonials/stats sections, service detail pages, quote form with uploads and Resend emails, analytics scripts, legal ",
-      "url": "https://github.com/MuhammadAbuBakar69/Power-Digitizing",
-      "demo": "https://power-digitizing.vercel.app",
-      "stars": 0,
-      "updated": "2026-11-09"
     },
     {
       "id": "repo:otto",
@@ -388,7 +424,7 @@
       "stack": [
         "JavaScript"
       ],
-      "body": "Drag-and-Drop Kanban Board A feature-rich, drag-and-drop Kanban task management board built in React using native HTML5 drag-and-drop APIs. Features - 3 Status Columns : To Do, In Progress, and Done. - HTML5 Drag-and-Drop : Drag task cards seamlessly between columns with visual highlight drop zones. - Task Management : Add new tasks with custom title and priority level (Low, Medium, High). - Task Counter : Live task count per column. - Fallback Mobile Controls : Move left/right buttons for touch devices. - Task Deletion : One-click task removal. - Persistent Data : Automatically persists task state in localStorage . - Colored Columns : Distinct visual themes per column status. Tech Stack - React (Vite) - CSS3 (CSS Grid, flexbox, HTML5 drag styling) Quick Start 1. Copy App.jsx and App.css into your Vite React project. 2. Run npm run dev . - Priority Filter : Quickly filter the board by High, Medium, or Low priority.",
+      "body": "",
       "url": "https://github.com/MuhammadAbuBakar69/kanban-board",
       "demo": null,
       "stars": 0,
