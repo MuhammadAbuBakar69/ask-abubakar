@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "profile": {
     "login": "MuhammadAbuBakar69",
     "name": "Muhammad Abu-Bakar",
@@ -45,22 +45,101 @@
       "title": "Muhammad Abu-Bakar",
       "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
       "topics": [
+        "Python",
         "TypeScript",
         "JavaScript",
-        "Python",
         "HTML",
         "CSS"
       ],
       "stack": [
+        "Python",
         "TypeScript",
         "JavaScript",
-        "Python",
         "HTML",
         "CSS"
       ],
       "body": "",
       "url": "https://github.com/MuhammadAbuBakar69",
       "updated": null
+    },
+    {
+      "id": "repo:MuhammadAbuBakar69",
+      "kind": "repo",
+      "title": "MuhammadAbuBakar69",
+      "summary": "Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap generated from the GitHub API every day.",
+      "topics": [
+        "automation",
+        "data-visualisation",
+        "github-actions",
+        "profile",
+        "python",
+        "svg"
+      ],
+      "stack": [
+        "Python",
+        "automation",
+        "data-visualisation",
+        "github-actions",
+        "profile",
+        "python",
+        "svg"
+      ],
+      "body": "-- ask about me &nbsp;/&nbsp; portfolio &nbsp;/&nbsp; linkedin &nbsp;/&nbsp; github &nbsp;/&nbsp; email muhammadabubakar69@github ~ $ ./stack.sh Frontend Backend & Data AI / Automation Tools & Platforms muhammadabubakar69@github ~ $ ./featured.sh Project What it does Stack Stars :--- :--- :--- ---: Resumind ATS Checker JavaScript 1 booking-system Booking system with calendar and availability JavaScript 1 github-analyzer GitHub profile analyzer with stats via GitHub API JavaScript 1 Festivity Awwward Winning Website CSS 1 flowmind-ai Build Intelligent Workflows. Automate Everything. Visual AI workflow automation and aut... JavaScript 0 MuhammadAbuBakar69 Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap... Python 0 muhammadabubakar69@github ~ $ ./snake.sh muhammadabubakar69@github ~ $ ./links.sh This README maintains itself. The cover, achievements, graph, streaks and language stats are pulled from the GitHub API every morning, so the numbers are always current. Nothing on this page is a hand-typed claim: if a figure stops being true, it changes on its own.",
+      "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "repo:growthpilot-ai",
+      "kind": "repo",
+      "title": "growthpilot-ai",
+      "summary": "Growth analysis for one real business: a scored diagnosis across 7 dimensions, 19 page checks, and a check of your answers against your own page. Local-first, no account.",
+      "topics": [
+        "business-intelligence",
+        "evidence-based",
+        "github-pages",
+        "growth",
+        "local-first",
+        "nextjs",
+        "seo",
+        "site-audit",
+        "static-site",
+        "typescript"
+      ],
+      "stack": [
+        "TypeScript",
+        "business-intelligence",
+        "evidence-based",
+        "github-pages",
+        "growth",
+        "local-first",
+        "nextjs",
+        "seo",
+        "site-audit",
+        "static-site",
+        "typescript"
+      ],
+      "body": "GrowthPilot A growth analysis for a real business: a scored diagnosis, findings that state their evidence, and a 30/60/90 plan. It opens straight into the app. No account, no sign-in, no server, no database. Live: https://muhammadabubakar69.github.io/growthpilot-ai/ Why it has no backend An earlier version of this project was a multi-tenant SaaS on Supabase with row-level security, auth middleware and a Vercel deployment. It worked, and it was the wrong shape for the job: a business owner had to sign up, confirm an email and create a workspace before seeing anything, and their answers then lived on a server that had to be secured, migrated and paid for. This version keeps the part that matters - the analysis - and removes the part that was friction. The app is a single static page. Your business is stored in your own browser, and the only network request the page ever makes is loading its own files. The three rules the engine follows 1. Nothing is invented. An unanswered dimension is reported as unavailable , never as zero, and no finding is built on a question you skipped. The overall score renormalises over what you actually answered, and shows how complete that is. 2. Every number shows its formula. A dimension score is earned / possible × 100 over that dimension's answers; the overall score is the weighted sum of dimension scores, weights in lib/engine.ts ( positioning 15, ",
+      "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
+      "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
+      "stars": 0,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "repo:ask-abubakar",
+      "kind": "repo",
+      "title": "ask-abubakar",
+      "summary": "Ask about Muhammad Abu-Bakar and his repositories. Answers are retrieved from public repo data and cite their source.",
+      "topics": [],
+      "stack": [
+        "JavaScript"
+      ],
+      "body": "Ask about Abu-Bakar A public page where anyone can ask about Muhammad Abu-Bakar and his repositories, and get an answer that cites its source. Live: https://muhammadabubakar69.github.io/ask-abubakar/ What it is, precisely A retrieval engine, not a language model. lib/retrieval.mjs scores every knowledge-base entry against the question and composes an answer from the winning entry's own fields. scripts/build-kb.mjs rebuilds that knowledge base from the GitHub API every day, so answers cannot drift from the code. Why not an LLM: a public page cannot hold a provider key, a proxy costs money per visitor, and a model would occasionally invent a project that does not exist. On a question about what someone has built, a lookup is both cheaper and more truthful. The engine returns insufficient rather than guessing: ask it about Rust firmware and it says it does not know. Guarantees - Every answer shows the repository it came from. - Unknown or unsupported questions refuse explicitly, with a low-confidence marker. - Nothing is fetched from a third party at runtime. The page reads one local JSON file. Local development Adding a language model later The honest place for one is a serverless function holding the key, and only to rephrase what retrieval already found. Concretely: keep answer() as the source of truth, POST {question, hits} to the function, and reject any response that introdu",
+      "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
+      "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
+      "stars": 0,
+      "updated": "2026-11-18"
     },
     {
       "id": "repo:Power-Digitizing",
@@ -112,85 +191,6 @@
       "demo": "https://app.base44.com",
       "stars": 0,
       "updated": "2026-11-18"
-    },
-    {
-      "id": "repo:MuhammadAbuBakar69",
-      "kind": "repo",
-      "title": "MuhammadAbuBakar69",
-      "summary": "Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap generated from the GitHub API every day.",
-      "topics": [
-        "automation",
-        "data-visualisation",
-        "github-actions",
-        "profile",
-        "python",
-        "svg"
-      ],
-      "stack": [
-        "Python",
-        "automation",
-        "data-visualisation",
-        "github-actions",
-        "profile",
-        "python",
-        "svg"
-      ],
-      "body": "-- ask about me &nbsp;/&nbsp; portfolio &nbsp;/&nbsp; linkedin &nbsp;/&nbsp; github &nbsp;/&nbsp; email muhammadabubakar69@github ~ $ ./stack.sh Frontend Backend & Data AI / Automation Tools & Platforms muhammadabubakar69@github ~ $ ./featured.sh Project What it does Stack Stars :--- :--- :--- ---: Resumind ATS Checker JavaScript 1 booking-system Booking system with calendar and availability JavaScript 1 github-analyzer GitHub profile analyzer with stats via GitHub API JavaScript 1 Festivity Awwward Winning Website CSS 1 MuhammadAbuBakar69 Auto-refreshing profile art: SVG cards, a halftone portrait and a contribution heatmap... Python 0 ask-abubakar Ask about Muhammad Abu-Bakar and his repositories. Answers are retrieved from public re... JavaScript 0 muhammadabubakar69@github ~ $ ./snake.sh muhammadabubakar69@github ~ $ ./links.sh This README maintains itself. The cover, achievements, graph, streaks and language stats are pulled from the GitHub API every morning, so the numbers are always current. Nothing on this page is a hand-typed claim: if a figure stops being true, it changes on its own.",
-      "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
-      "demo": null,
-      "stars": 0,
-      "updated": "2026-11-18"
-    },
-    {
-      "id": "repo:growthpilot-ai",
-      "kind": "repo",
-      "title": "growthpilot-ai",
-      "summary": "Growth analysis for one real business: a scored diagnosis across 7 dimensions, 19 page checks, and a check of your answers against your own page. Local-first, no account.",
-      "topics": [
-        "business-intelligence",
-        "evidence-based",
-        "github-pages",
-        "growth",
-        "local-first",
-        "nextjs",
-        "seo",
-        "site-audit",
-        "static-site",
-        "typescript"
-      ],
-      "stack": [
-        "TypeScript",
-        "business-intelligence",
-        "evidence-based",
-        "github-pages",
-        "growth",
-        "local-first",
-        "nextjs",
-        "seo",
-        "site-audit",
-        "static-site",
-        "typescript"
-      ],
-      "body": "GrowthPilot A growth analysis for a real business: a scored diagnosis, findings that state their evidence, and a 30/60/90 plan. It opens straight into the app. No account, no sign-in, no server, no database. Live: https://muhammadabubakar69.github.io/growthpilot-ai/ Why it has no backend An earlier version of this project was a multi-tenant SaaS on Supabase with row-level security, auth middleware and a Vercel deployment. It worked, and it was the wrong shape for the job: a business owner had to sign up, confirm an email and create a workspace before seeing anything, and their answers then lived on a server that had to be secured, migrated and paid for. This version keeps the part that matters - the analysis - and removes the part that was friction. The app is a single static page. Your business is stored in your own browser, and the only network request the page ever makes is loading its own files. The three rules the engine follows 1. Nothing is invented. An unanswered dimension is reported as unavailable , never as zero, and no finding is built on a question you skipped. The overall score renormalises over what you actually answered, and shows how complete that is. 2. Every number shows its formula. A dimension score is earned / possible × 100 over that dimension's answers; the overall score is the weighted sum of dimension scores, weights in lib/engine.ts ( positioning 15, ",
-      "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
-      "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
-      "stars": 0,
-      "updated": "2026-11-17"
-    },
-    {
-      "id": "repo:ask-abubakar",
-      "kind": "repo",
-      "title": "ask-abubakar",
-      "summary": "Ask about Muhammad Abu-Bakar and his repositories. Answers are retrieved from public repo data and cite their source.",
-      "topics": [],
-      "stack": [
-        "JavaScript"
-      ],
-      "body": "Ask about Abu-Bakar A public page where anyone can ask about Muhammad Abu-Bakar and his repositories, and get an answer that cites its source. Live: https://muhammadabubakar69.github.io/ask-abubakar/ What it is, precisely A retrieval engine, not a language model. lib/retrieval.mjs scores every knowledge-base entry against the question and composes an answer from the winning entry's own fields. scripts/build-kb.mjs rebuilds that knowledge base from the GitHub API every day, so answers cannot drift from the code. Why not an LLM: a public page cannot hold a provider key, a proxy costs money per visitor, and a model would occasionally invent a project that does not exist. On a question about what someone has built, a lookup is both cheaper and more truthful. The engine returns insufficient rather than guessing: ask it about Rust firmware and it says it does not know. Guarantees - Every answer shows the repository it came from. - Unknown or unsupported questions refuse explicitly, with a low-confidence marker. - Nothing is fetched from a third party at runtime. The page reads one local JSON file. Local development Adding a language model later The honest place for one is a serverless function holding the key, and only to rephrase what retrieval already found. Concretely: keep answer() as the source of truth, POST {question, hits} to the function, and reject any response that introdu",
-      "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
-      "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
-      "stars": 0,
-      "updated": "2026-11-17"
     },
     {
       "id": "repo:inkplot",
