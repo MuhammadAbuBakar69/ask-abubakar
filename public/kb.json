@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "profile": {
     "login": "MuhammadAbuBakar69",
     "name": "Muhammad Abu-Bakar",
@@ -88,7 +88,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
       "demo": null,
       "stars": 0,
-      "updated": "2026-11-20"
+      "updated": "2026-11-21"
     },
     {
       "id": "repo:growthpilot-ai",
@@ -124,6 +124,21 @@
       "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
       "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
       "stars": 0,
+      "updated": "2026-11-21"
+    },
+    {
+      "id": "repo:Power-Digitizing",
+      "kind": "repo",
+      "title": "Power-Digitizing",
+      "summary": "new design",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "Multi-site platform (Power Digitizing + tenants) One Next.js codebase, many websites. The request hostname selects a site config; components never hardcode a brand. Run Locally every hostname falls back to DEFAULT SITE ID . To test another tenant, use its domain, e.g. add 127.0.0.1 client-001.example.com to your hosts file and open http://client-001.example.com:3000 . How tenants resolve middleware.ts forwards the hostname - lib/tenant.ts matches it against domains in config/sites/ (exact, or .sub.domain.com wildcards) - layout injects theme CSS variables, fonts, metadata and JSON-LD - shared components render that site's data. Add a site 1. Copy config/sites/client-001.ts , change id, domains, theme, content. 2. Register it in config/sites/index.ts . 3. Point the domain at your deployment and add it as a domain in your host (Vercel: Project Domains). The config is validated with Zod at build time; an invalid colour or missing field fails the build. Theme and fonts Colours are tokens ( background , primary , accent , ...) mapped to CSS variables. Fonts are chosen by key from lib/fonts.ts (next/font needs static declarations); add a font there and to FONT KEYS . Not built yet (next steps) Header/hero GSAP and Framer Motion polish, patches/portfolio/blog/process/testimonials/stats sections, service detail pages, quote form with uploads and Resend emails, analytics scripts, legal ",
+      "url": "https://github.com/MuhammadAbuBakar69/Power-Digitizing",
+      "demo": "https://power-digitizing.vercel.app",
+      "stars": 0,
       "updated": "2026-11-20"
     },
     {
@@ -139,22 +154,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
       "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
       "stars": 0,
-      "updated": "2026-11-19"
-    },
-    {
-      "id": "repo:Power-Digitizing",
-      "kind": "repo",
-      "title": "Power-Digitizing",
-      "summary": "new design",
-      "topics": [],
-      "stack": [
-        "TypeScript"
-      ],
-      "body": "Multi-site platform (Power Digitizing + tenants) One Next.js codebase, many websites. The request hostname selects a site config; components never hardcode a brand. Run Locally every hostname falls back to DEFAULT SITE ID . To test another tenant, use its domain, e.g. add 127.0.0.1 client-001.example.com to your hosts file and open http://client-001.example.com:3000 . How tenants resolve middleware.ts forwards the hostname - lib/tenant.ts matches it against domains in config/sites/ (exact, or .sub.domain.com wildcards) - layout injects theme CSS variables, fonts, metadata and JSON-LD - shared components render that site's data. Add a site 1. Copy config/sites/client-001.ts , change id, domains, theme, content. 2. Register it in config/sites/index.ts . 3. Point the domain at your deployment and add it as a domain in your host (Vercel: Project Domains). The config is validated with Zod at build time; an invalid colour or missing field fails the build. Theme and fonts Colours are tokens ( background , primary , accent , ...) mapped to CSS variables. Fonts are chosen by key from lib/fonts.ts (next/font needs static declarations); add a font there and to FONT KEYS . Not built yet (next steps) Header/hero GSAP and Framer Motion polish, patches/portfolio/blog/process/testimonials/stats sections, service detail pages, quote form with uploads and Resend emails, analytics scripts, legal ",
-      "url": "https://github.com/MuhammadAbuBakar69/Power-Digitizing",
-      "demo": "https://power-digitizing.vercel.app",
-      "stars": 0,
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "id": "repo:flowmind-ai",
