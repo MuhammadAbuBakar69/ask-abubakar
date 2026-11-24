@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-23",
+  "generated_at": "2026-11-24",
   "profile": {
     "login": "MuhammadAbuBakar69",
     "name": "Muhammad Abu-Bakar",
     "location": null,
     "status": "open to work",
     "counts": {
-      "repos": 72,
-      "described": 72
+      "repos": 73,
+      "described": 73
     },
     "languages": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "name": "TypeScript",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Python",
@@ -45,15 +45,15 @@
       "title": "Muhammad Abu-Bakar",
       "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
       "topics": [
-        "Python",
         "TypeScript",
+        "Python",
         "JavaScript",
         "HTML",
         "CSS"
       ],
       "stack": [
-        "Python",
         "TypeScript",
+        "Python",
         "JavaScript",
         "HTML",
         "CSS"
@@ -61,6 +61,21 @@
       "body": "",
       "url": "https://github.com/MuhammadAbuBakar69",
       "updated": null
+    },
+    {
+      "id": "repo:Nexora-AI",
+      "kind": "repo",
+      "title": "Nexora-AI",
+      "summary": "Nexora is an AI API management and usage tracking platform that enables businesses and developers to manage AI models, distribute API access, allocate token credits, monitor consumption, and control usage through centralized customer and admin dashboards.",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Nexora-AI",
+      "demo": null,
+      "stars": 0,
+      "updated": "2026-11-24"
     },
     {
       "id": "repo:MuhammadAbuBakar69",
@@ -88,7 +103,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
       "demo": null,
       "stars": 0,
-      "updated": "2026-11-23"
+      "updated": "2026-11-24"
     },
     {
       "id": "repo:growthpilot-ai",
@@ -124,7 +139,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
       "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
       "stars": 0,
-      "updated": "2026-11-23"
+      "updated": "2026-11-24"
     },
     {
       "id": "repo:ask-abubakar",
@@ -139,7 +154,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
       "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
       "stars": 0,
-      "updated": "2026-11-22"
+      "updated": "2026-11-23"
     },
     {
       "id": "repo:Power-Digitizing",
@@ -409,7 +424,7 @@
       "stack": [
         "JavaScript"
       ],
-      "body": "Pomodoro Timer - React Vite Starter A sleek, dark-themed Pomodoro focus timer with circular progress ring, audio notifications, and session activity tracking. Features - 3 Timer Modes : - Pomodoro (25 min focus) - Short Break (5 min rest) - Long Break (15 min rest) - SVG Circular Progress Ring : Smooth visual feedback for time remaining. - Audio Chime : Native Web Audio API sound chime when timer completes (no audio assets required). - Session Stats : - Completed Pomodoros counter. - Cumulative focus time in minutes. - Cycle tracker (4 sessions per long break). - Tab Title Sync : View remaining time directly on your browser tab title. - LocalStorage Persistence : Saves completed session counts automatically. Quick Start (Vite) 1. Create a Vite React project: 2. Replace src/App.jsx with pomodoro-timer App.jsx and src/App.css with pomodoro-timer App.css . 3. Ensure import './App.css' is present at top of App.jsx . 4. Start dev server:",
+      "body": "",
       "url": "https://github.com/MuhammadAbuBakar69/pomodoro-timer",
       "demo": null,
       "stars": 0,
