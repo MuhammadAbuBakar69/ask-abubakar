@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27",
+  "generated_at": "2026-11-28",
   "profile": {
     "login": "MuhammadAbuBakar69",
     "name": "Muhammad Abu-Bakar",
@@ -45,15 +45,15 @@
       "title": "Muhammad Abu-Bakar",
       "summary": "Full Stack AI Integration Developer | React • Next.js • Node.js | OpenAI • LangChain • AI Agents • RAG Most used language: JavaScript.",
       "topics": [
-        "Python",
         "TypeScript",
+        "Python",
         "JavaScript",
         "HTML",
         "CSS"
       ],
       "stack": [
-        "Python",
         "TypeScript",
+        "Python",
         "JavaScript",
         "HTML",
         "CSS"
@@ -61,6 +61,21 @@
       "body": "",
       "url": "https://github.com/MuhammadAbuBakar69",
       "updated": null
+    },
+    {
+      "id": "repo:Nexora-AI",
+      "kind": "repo",
+      "title": "Nexora-AI",
+      "summary": "Nexora is an AI API management and usage tracking platform that enables businesses and developers to manage AI models, distribute API access, allocate token credits, monitor consumption, and control usage through centralized customer and admin dashboards.",
+      "topics": [],
+      "stack": [
+        "TypeScript"
+      ],
+      "body": "",
+      "url": "https://github.com/MuhammadAbuBakar69/Nexora-AI",
+      "demo": "https://nexora-ai-flame-xi.vercel.app",
+      "stars": 0,
+      "updated": "2026-11-28"
     },
     {
       "id": "repo:MuhammadAbuBakar69",
@@ -88,7 +103,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/MuhammadAbuBakar69",
       "demo": null,
       "stars": 0,
-      "updated": "2026-11-27"
+      "updated": "2026-11-28"
     },
     {
       "id": "repo:growthpilot-ai",
@@ -124,7 +139,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/growthpilot-ai",
       "demo": "https://muhammadabubakar69.github.io/growthpilot-ai/",
       "stars": 0,
-      "updated": "2026-11-27"
+      "updated": "2026-11-28"
     },
     {
       "id": "repo:ask-abubakar",
@@ -139,22 +154,7 @@
       "url": "https://github.com/MuhammadAbuBakar69/ask-abubakar",
       "demo": "https://muhammadabubakar69.github.io/ask-abubakar/",
       "stars": 0,
-      "updated": "2026-11-26"
-    },
-    {
-      "id": "repo:Nexora-AI",
-      "kind": "repo",
-      "title": "Nexora-AI",
-      "summary": "Nexora is an AI API management and usage tracking platform that enables businesses and developers to manage AI models, distribute API access, allocate token credits, monitor consumption, and control usage through centralized customer and admin dashboards.",
-      "topics": [],
-      "stack": [
-        "TypeScript"
-      ],
-      "body": "",
-      "url": "https://github.com/MuhammadAbuBakar69/Nexora-AI",
-      "demo": null,
-      "stars": 0,
-      "updated": "2026-11-24"
+      "updated": "2026-11-27"
     },
     {
       "id": "repo:Power-Digitizing",
